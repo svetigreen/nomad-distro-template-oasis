@@ -1,0 +1,13 @@
+services:
+  app:
+    image: ghcr.io/svetigreen/nomad-distro-template-oasis:main
+    pull_policy: always
+  north:
+    image: ghcr.io/svetigreen/nomad-distro-template-oasis:main
+    pull_policy: always
+  worker:
+    image: ghcr.io/svetigreen/nomad-distro-template-oasis:main
+    pull_policy: always
+  jupyterlab_image:
+    image: ghcr.io/svetigreen/nomad-distro-template-oasis/jupyter:main
+    pull_policy: always
