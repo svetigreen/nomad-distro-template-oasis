@@ -13,7 +13,7 @@ repository = "https://github.com/svetigreen/nomad-distro-template-oasis"
 
 [project.optional-dependencies]
 plugins = [
-  "sintering @ git+https://github.com/svetigreen/sintering.git@v0.1.0",
+  "sintering @ git+https://github.com/svetigreen/nomad-sintering.git@v0.1.0",
 ]
 jupyter = [
   "jupyter-events"
